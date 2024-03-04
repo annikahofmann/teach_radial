@@ -189,14 +189,17 @@
 
 \begin{frame}{NUFFT Exercises}
 	\begin{itemize}
-		\item Double "num\_samples" in the function "make\_adc"
+		\item <1-> Double "num\_samples" in the function "make\_adc"
 		\vspace{1em}
-        \item Reduce "Nphase", what undersampling artifacts do you see?
+        \item <2-> Reduce "Nphase", what undersampling artifacts do you see?
         \vspace{1em}
-		\item What artifacts do you see in the presence of gradient delays?
+		\item <3-> What artifacts do you see in the presence of gradient delays?
 		\vspace{1em}
-        \item How would you correct for gradient delays in reality?
+		\item <4-> Do gradient delays also exist in Cartesian sampling? \\
+		If so, why don't you see image artifacts there?
 		\vspace{1em}
-        \item What if the density compensation function is unknown?
+        \item <5-> How would you correct for gradient delays in reality?
+		\vspace{1em}
+        \item <6-> What if the density compensation function is unknown?
 	\end{itemize}
 \end{frame}
